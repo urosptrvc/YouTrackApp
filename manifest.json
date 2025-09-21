@@ -1,0 +1,22 @@
+{
+  "name": "youtrackinternship",
+  "title": "YouTrackInternship",
+  "description": "YouTrackInternship",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "Uros Petrovic",
+    "url": "https://github.com/urosptrvc"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "main-menu-item",
+      "name": "Main-Menu-Item",
+      "indexPath": "main-menu-item/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "main-menu-item/widget-icon.svg",
+      "description": "InternshipTraining"
+    }
+  ]
+}
